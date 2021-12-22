@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Interesses</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stijl.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3 rounded-bottom">
+            <div class="container-fluid pt-1">
+                <span class="navbar-brand ms-3 fw-bolder">
+                    Hassib Kareme</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center">
+                        <a class="nav-link px-3" aria-current="page" href="index.html">Homepagina</a>
+                        <a class="nav-link px-3" href="cv.html">Curriculum Vitae</a>
+                        <a class="nav-link px-3" href="ervaring.html">Ervaring</a>
+                        <a class="nav-link active px-3" href="hobby.html">Hobby's & interesses</a>
+                        <a class="nav-link px-3" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+
+        <div class="row">
+
+            <div id="carouselExampleCaptions" class="carousel slide col-md-12 col-lg-6 mb-3" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-thumbnail d-block w-100 rounded"
+                            src="images/imagecompressor/luca-bravo-O453M2Liufs-unsplash-min.jpg" alt="reizen">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Reizen</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-thumbnail d-block w-100 rounded"
+                            src="images/imagecompressor/wes-hicks-MEL-jJnm7RQ-unsplash-min.jpg" alt="muziek">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Muziek</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-thumbnail d-block w-100 rounded"
+                            src="images/imagecompressor/nicolas-tissot-Z2yEVIbH-XU-unsplash-min.jpg" alt="skydiven">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Skydiven</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-thumbnail d-block w-100 rounded"
+                            src="images/imagecompressor/bawah-reserve-aKAUZYouIXk-unsplash-min.jpg" alt="zeeaquarium">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Zeeaquarium</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-thumbnail d-block w-100 rounded" src="images/mountainbike.jpg"
+                            alt="mountainbike">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Mountainbike</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-thumbnail d-block w-100 rounded" src="images/wielrennen.jpg" alt="koersfiets">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bg-light opacity-75">
+                                <h5 class="text-dark">Wielrennen</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Quote -->
+
+            <div class="col-md-12 col-lg-6 my-auto">
+                <div class="container bg-light rounded">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <h2>A hobby a day keeps the doldrums away..</h2>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Phyllis McGinley
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Accordion -->
+
+        <div class="row mb-3">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Reizen
+                            <img class="ms-1" src="images/sunglasses.svg" alt="zonnebril">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Wanneer ik op een vliegtuig stap – waaruit ik niet hoef te springen
+                            – kan ik al mijn zorgen voor enkele dagen volledig achterlaten.
+                            Het ontdekken van nieuwe culturen, de geschiedenis achterhalen, het inplannen van een
+                            museumbezoekje en het proeven van de lokale kookkunsten is wat
+                            mij het meeste aanspreekt. In de pre-coronatijdperk heb ik heel veel zitten reizen door
+                            verschillende landen heen. Mijn favoriete bestemming tot nu toe
+                            was Malta aangezien het land een rijke koloniale geschiedenis heeft dat tot uiting komt in
+                            de taal, het eten en de architectuur. Telkens wanneer ik een
+                            gesprek aanging met mensen uit andere landen, besefte ik dat er verschillende wereldbeelden
+                            bestaan. Het opende mijn ogen in die zin dat mijn blik op de
+                            wereld ruimer is geworden. Op dit moment staan Mexico en Canada ook nog op mijn
+                            post-coronabucketlist.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Liefde voor muziek- en videoproductie
+                            <img class="ms-1" src="images/music-note-beamed.svg" alt="muzieknoten">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Mijn liefde voor muziek uitte zich in het spelen van gitaar en
+                            piano. Met de kennis en vaardigheden die ik oppikte
+                            bij de Muziekacademie ben ik zelf begonnen met muziek te maken. Al snel verdiepte ik mij in
+                            de wereld van audio- en videoproductie. De software die hiervoor
+                            nodig was heb ik helemaal op mijn eentje uitgedokterd tijdens mijn tienerjaren. Met het geld
+                            dat ik spaarde als student kocht ik de nodige apparatuur om mijn
+                            ideeën op artistiek vlak op een creatieve manier tot uiting te laten komen. Tot op de dag
+                            van vandaag is muziek nog steeds een uitlaatklep voor mij. Na een drukke
+                            dag kruip ik dan ook wel eens achter de piano.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Skydiven
+                            <img class="ms-1" src="images/fan.svg" alt="vliegtuigrotor">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Ik ben een avontuurlijk persoon die zeer nieuwsgierig van aard is.
+                            Na alle traditionele sporten zoals voetbal,
+                            basketballen crossfit een kans te hebben gegeven, besloot ik dit jaar om met mijn voeten
+                            letterlijk van de grond te gaan. Ondanks mijn hoogtevrees probeerde
+                            ik op deze manier ook om mijn grenzen te verleggen door te gaan skydiven. Het heeft mij een
+                            zeer belangrijke levensles geleerd namelijk dat je enkel kunt groeien
+                            als je uit je comfortzone stapt en je angsten achter je laat. Ondertussen ben ik bijna klaar
+                            met de volledige opleiding bij Skydive Antwerpen. Mijn adrenalineverslaving
+                            heeft er dus toe geleid dat ik als ontspanning na een drukke werkweek in het weekend wel
+                            eens uit vliegtuigen spring op 4000 meter hoogte.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Hightech-zeeaquarium
+                            <img class="ms-1" src="images/water.svg" alt="water">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">De complexiteit achter het onderhouden van koralen, tropische
+                            zoutwatervissen en andere speciën bracht mij ertoe om toch een
+                            stukje oceaan in huis te halen. Het begrijpen van de ingewikkelde technologie die er schuilt
+                            achter het bereiken van de juiste balans in de watersamenstelling,
+                            de hoeveelheid licht en stroming is iets wat mij heel erg boeide, daar waar het andere
+                            mensen net afschrikt. Op een gegeven moment was ik in staat om een veilige
+                            omgeving te creëren waar zelfs de meest moeilijk te houden koralen in konden gedijen. Als er
+                            één ding is dat ik heb geleerd uit het houden van aquariums is het dat
+                            je geduld moet hebben om tot mooie resultaten te kunnen komen.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            Mountainbiking
+                            <img class="ms-1" src="images/bicycle.svg" alt="fiets">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Maecenas semper quis ligula ac lobortis. Cras viverra diam sit
+                            amet ex accumsan, sit amet porta lacus faucibus. Quisque elementum faucibus urna, vel
+                            fringilla eros mattis ac. Curabitur faucibus dolor mauris, non vehicula velit varius
+                            non. Fusce et tortor eu felis pharetra convallis at ut ante. Etiam eget metus feugiat,
+                            facilisis tortor nec, luctus ante. Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices posuere cubilia curae; Donec ornare turpis lacus, at dignissim sem congue
+                            vitae. Mauris eget sem quam. Mauris id purus non nibh aliquam semper sed at lorem.
+                            Aenean tellus purus, vestibulum quis neque et, cursus luctus neque. Etiam pulvinar
+                            posuere eros, nec mollis nisl ullamcorper nec.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Wielrennen
+                            <img class="ms-1" src="images/signpost-2.svg" alt="richtingaanwijzer">
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Maecenas semper quis ligula ac lobortis. Cras viverra diam
+                            sit amet ex accumsan, sit amet porta lacus faucibus. Quisque elementum faucibus
+                            urna, vel fringilla eros mattis ac. Curabitur faucibus dolor mauris, non vehicula
+                            velit varius non. Fusce et tortor eu felis pharetra convallis at ut ante. Etiam eget
+                            metus feugiat, facilisis tortor nec, luctus ante. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia curae; Donec ornare turpis lacus,
+                            at dignissim sem congue vitae. Mauris eget sem quam. Mauris id purus non nibh
+                            aliquam semper sed at lorem. Aenean tellus purus, vestibulum quis neque et, cursus
+                            luctus neque. Etiam pulvinar posuere eros, nec mollis nisl ullamcorper nec.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="bg-light text-center text-lg-start rounded-top">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+
+                        <div class="container">
+                            <h5 class="text-uppercase">Sociale Media</h5>
+                            <div class="row my-4">
+
+                                <div class="col-lg-3">
+                                    <a href="https://www.facebook.com" target="_blank">
+                                        <img class="mx-4 mb-2" src="images/facebook.svg" width="25" alt="facebook">
+                                    </a>
+                                    <div class="mb-2">Facebook</div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <a href="https://www.linkedin.com" target="_blank">
+                                        <img class="mx-4 mb-2" src="images/linkedin.svg" width="25" alt="linkedin">
+                                    </a>
+                                    <div class="mb-2">Linkedin</div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <a href="https://www.instragram.com" target="_blank">
+                                        <img class="mx-4 mb-2" src="images/instagram.svg" width="25" alt="instagram">
+                                    </a>
+                                    <div class="mb-2">Instagram</div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <a href="https://web.whatsapp.com/" target="_blank">
+                                        <img class="mx-4 mb-2" src="images/whatsapp.svg" width="25" alt="whatsapp">
+                                    </a>
+                                    <div>whatsapp</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contactgegevens</h5>
+                        <div class="my-3">
+                            <p><a href="mailto:hassib@example.com">hassibkareme2@gmail.com</a></p>
+                            <p>014 12 23 45</p>
+                            <p>Herentals (2200), fictievestraat 54</p>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 footerColor">
+                &copy; 2021 Copyright:
+                <a class="text-dark" href="https://nl.wikipedia.org/wiki/Auteursrecht"
+                    target="_blank">HassibKareme.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

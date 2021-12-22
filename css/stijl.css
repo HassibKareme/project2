@@ -1,0 +1,30 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.footerColor {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cta {
+    background-color: lightskyblue;
+    border-width: 10px;
+    border-color: black;
+    border-style: double;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cta h3 {
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+.textFullWidth{
+    text-align: justify;
+    text-justify: inter-word;
+}
